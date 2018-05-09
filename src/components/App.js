@@ -63,7 +63,7 @@ class App extends React.Component {
                               <ListOfArticles removeArticle = {this.removeArticle}
                                               editArticle={this.editArticle}
                                               key={key} index={key}
-                                              details={this.state.articles[key]} editForm={this.state.editForm} />
+                                              details={this.state.articles[key]} />
                           ))}
                       </div>
                       <div className="col">
